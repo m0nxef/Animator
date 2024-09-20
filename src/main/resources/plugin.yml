@@ -1,0 +1,8 @@
+name: Animator
+version: '1.0'
+author: Luxry
+main: club.luxry.animator.Animator
+commands:
+  animatorreload:
+    description: Reloads the config
+    usage: /animatorreload

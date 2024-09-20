@@ -1,0 +1,28 @@
+placeholders:
+  admin:
+    speed: 50 #ms
+    type: cycle
+    text:
+      - "&cAdmin"
+      - "&bAdmin"
+      - "&eAdmin"
+  vip:
+    speed: 100 #ms
+    type: random
+    text:
+      - "&6VIP"
+      - "&eV&6I&eP"
+      - "&#FFD700VIP" # Gold color using hex code
+  announcement:
+    speed: 5000 #ms
+    type: cycle
+    text:
+      - "&aWelcome to our server!"
+      - "&bDon't forget to vote!"
+      - "&eCheck out our store for cool perks!"
+  alert:
+    speed: 500 #ms
+    type: blink
+    text:
+      - "&c&lALERT"
+      - ""
