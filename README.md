@@ -1,6 +1,6 @@
-# Welcome to the AnimatedPlaceholders Wiki
+# Welcome to the Animator Wiki
 
-AnimatedPlaceholders is a powerful and flexible Spigot plugin that allows server administrators to create dynamic, animated placeholders for use with PlaceholderAPI. This wiki will guide you through the installation, configuration, and usage of the plugin.
+Animator is a powerful and flexible Spigot plugin that allows server administrators to create dynamic, animated placeholders for use with PlaceholderAPI. This wiki will guide you through the installation, configuration, and usage of the plugin.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ AnimatedPlaceholders is a powerful and flexible Spigot plugin that allows server
 
 ## Home
 
-AnimatedPlaceholders enhances your server's text displays by providing animated, dynamic placeholders. Whether you want to create eye-catching titles, rotating announcements, or attention-grabbing alerts, AnimatedPlaceholders has you covered.
+Animator enhances your server's text displays by providing animated, dynamic placeholders. Whether you want to create eye-catching titles, rotating announcements, or attention-grabbing alerts, Animator has you covered.
 
 Key features:
 - Multiple animation types: cycle, random, and blink
@@ -28,14 +28,14 @@ Key features:
 ## Installation
 
 1. Ensure you have [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed on your server.
-2. Download the latest version of AnimatedPlaceholders from the [releases page](https://github.com/YourUsername/AnimatedPlaceholders/releases).
+2. Download the latest version of Animator from the [releases page](https://github.com/YourUsername/Animator/releases).
 3. Place the downloaded JAR file in your server's `plugins` folder.
 4. Restart your server or run the command `/reload confirm` if you have PlugMan installed.
 5. The plugin will generate a default configuration file. You can customize this in the next step.
 
 ## Configuration
 
-The plugin's configuration is stored in `plugins/AnimatedPlaceholders/config.yml`. Here's an example configuration with explanations:
+The plugin's configuration is stored in `plugins/Animator/config.yml`. Here's an example configuration with explanations:
 
 ```yaml
 placeholders:
@@ -94,13 +94,13 @@ You can use these in plugins like TAB, chat formatting plugins, scoreboard plugi
 
 | Command | Permission | Description |
 |---------|------------|-------------|
-| `/animatedplaceholders reload` | `animatedplaceholders.reload` | Reloads the plugin configuration |
+| `/Animatorreload` | `Animator.reload` | Reloads the plugin configuration |
 
 Aliases: `/ap reload`, `/animatedp reload`
 
 ## Placeholder Types
 
-AnimatedPlaceholders supports three types of animations:
+Animator supports three types of animations:
 
 1. **Cycle**: Rotates through the list of texts in order, looping back to the start when it reaches the end.
 2. **Random**: Randomly selects a text from the list each time the placeholder updates.
@@ -110,10 +110,10 @@ Choose the type that best fits your needs for each placeholder.
 
 ## Troubleshooting
 
-If you're experiencing issues with AnimatedPlaceholders, try these steps:
+If you're experiencing issues with Animator, try these steps:
 
 1. Ensure PlaceholderAPI is installed and up to date.
-2. Check the server console for any error messages related to AnimatedPlaceholders.
+2. Check the server console for any error messages related to Animator.
 3. Verify that your `config.yml` is correctly formatted.
 4. Try reloading the plugin with `/ap reload`.
 5. If issues persist, check the [FAQ](FAQ) or reach out for support.
@@ -134,4 +134,4 @@ A: The current version supports cycle, random, and blink. For additional types, 
 
 ---
 
-We hope you find AnimatedPlaceholders useful for your server! If you have any questions or suggestions, please don't hesitate to open an issue on our GitHub repository.
+We hope you find Animator useful for your server! If you have any questions or suggestions, please don't hesitate to open an issue on our GitHub repository.
