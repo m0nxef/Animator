@@ -1,30 +1,16 @@
-# Welcome to the Animator Wiki
+# Animator
 
-Animator is a powerful and flexible Spigot plugin that allows server administrators to create dynamic, animated placeholders for use with PlaceholderAPI. This wiki will guide you through the installation, configuration, and usage of the plugin.
+Animator is a powerful and flexible Spigot plugin that allows server administrators to create dynamic, animated placeholders for use with PlaceholderAPI.
 
 ## Table of Contents
 
-1. [Home](Home)
-2. [Installation](Installation)
-3. [Configuration](Configuration)
-4. [Usage](Usage)
-5. [Commands and Permissions](Commands-and-Permissions)
-6. [Placeholder Types](Placeholder-Types)
-7. [Troubleshooting](Troubleshooting)
-8. [FAQ](FAQ)
-
-
-## Home
-
-Animator enhances your server's text displays by providing animated, dynamic placeholders. Whether you want to create eye-catching titles, rotating announcements, or attention-grabbing alerts, Animator has you covered.
-
-Key features:
-- Multiple animation types: cycle, random, and blink
-- Customizable animation speed
-- Permission-based placeholders
-- RGB color support for modern Minecraft versions
-- Easy configuration through YAML
-- Reload command for on-the-fly updates
+1. [Installation](#installation)
+2. [Configuration](#configuration)
+3. [Usage](#usage)
+4. [Commands and Permissions](#commands-and-permissions)
+5. [Placeholder Types](#placeholder-types)
+6. [Troubleshooting](#troubleshooting)
+7. [FAQ](#faq)
 
 ## Installation
 
@@ -95,7 +81,7 @@ You can use these in plugins like TAB, chat formatting plugins, scoreboard plugi
 
 | Command | Permission | Description |
 |---------|------------|-------------|
-| `/Animatorreload` | `Animator.reload` | Reloads the plugin configuration |
+| `/Animator reload` | `Animator.reload` | Reloads the plugin configuration |
 
 ## Placeholder Types
 
@@ -115,7 +101,7 @@ If you're experiencing issues with Animator, try these steps:
 2. Check the server console for any error messages related to Animator.
 3. Verify that your `config.yml` is correctly formatted.
 4. Try reloading the plugin with `/ap reload`.
-5. If issues persist, check the [FAQ](FAQ) or reach out for support.
+5. If issues persist, check the [FAQ](#faq) or reach out for support.
 
 ## FAQ
 
