@@ -81,7 +81,7 @@ You can use these in plugins like TAB, chat formatting plugins, scoreboard plugi
 
 | Command | Permission | Description |
 |---------|------------|-------------|
-| `/Animator reload` | `Animator.reload` | Reloads the plugin configuration |
+| `/Animatorreload` | `Animator.reload` | Reloads the plugin configuration |
 
 ## Placeholder Types
 
