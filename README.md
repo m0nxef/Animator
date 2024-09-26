@@ -13,6 +13,7 @@ Animator is a powerful and flexible Spigot plugin that allows server administrat
 7. [Troubleshooting](Troubleshooting)
 8. [FAQ](FAQ)
 
+
 ## Home
 
 Animator enhances your server's text displays by providing animated, dynamic placeholders. Whether you want to create eye-catching titles, rotating announcements, or attention-grabbing alerts, Animator has you covered.
