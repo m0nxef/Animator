@@ -96,8 +96,6 @@ You can use these in plugins like TAB, chat formatting plugins, scoreboard plugi
 |---------|------------|-------------|
 | `/Animatorreload` | `Animator.reload` | Reloads the plugin configuration |
 
-Aliases: `/ap reload`, `/animatedp reload`
-
 ## Placeholder Types
 
 Animator supports three types of animations:
